@@ -1,5 +1,3 @@
-using UnityEngine;
-
 //A data transfer object (DTO) is an object that carries data
 //You can use this technique to facilitate communication between two apps
 [System.Serializable]
@@ -26,18 +24,5 @@ public class QuaternionDTO
         this.y = y;
         this.z = z;
         this.w = w;
-    }
-}
-
-public class Dto : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
-    {
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
     }
 }
