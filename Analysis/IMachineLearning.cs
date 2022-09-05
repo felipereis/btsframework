@@ -3,6 +3,6 @@ namespace StrategyDesignPattern
     public interface IMachineLearning
     {
         // Interface for methods
-        void ExecuteMachineLearning(string data);
+        public void ExecuteMachineLearning(string data);
     }
 }
