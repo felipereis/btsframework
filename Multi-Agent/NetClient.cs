@@ -101,7 +101,7 @@ public class NetClient : MonoBehaviour
     }
 
     // Message received from multi-agent core
-    void OnMessageReceived(string messageServer)
+    public void OnMessageReceived(string messageServer)
     {
     }
 
