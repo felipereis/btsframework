@@ -85,7 +85,7 @@ public class NetServer : MonoBehaviour
     }
 
     // Message received from agent
-    void OnMessageReceived(string message)
+    public void OnMessageReceived(string message)
     {
         QuaternionListFromAgent(message);
     }
