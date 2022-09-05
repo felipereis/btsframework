@@ -66,33 +66,6 @@ public class Poses : MonoBehaviour
         PINKY_TIP = 20
     }
 
-    //Kinect Standard 
-    public enum PoseKinect
-    {
-        HipCenter = 0,
-        Spine = 1,
-        Neck = 2,
-        Head = 3,
-        LeftClavicle = 4,
-        LeftUpperArm = 5,
-        LeftElbow = 6,
-        LeftHand = 7,
-        LeftFingers = 8,
-        RightClavicle = 9,
-        RightUpperArm = 10,
-        RightElbow = 11,
-        RightHand = 12,
-        RightFingers = 13,
-        LeftThigh = 14,
-        LeftKnee = 15,
-        LeftFoot = 16,
-        LeftToes = 17,
-        RightThigh = 18,
-        RightKnee = 19,
-        RightFoot = 20,
-        RightToes = 21
-    }
-
     // BTS Standard = Kinect - Mediapipe different mapping
     public enum PoseBts
     {
