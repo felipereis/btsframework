@@ -103,7 +103,9 @@ public class NetClient : MonoBehaviour
     // Message received from multi-agent core
     public void OnMessageReceived(string messageServer)
     {
+        // do something
     }
+
 
     // Send a message to the multi-agent core
     // Channel 1 - ChannelType.ReliableSequenced
