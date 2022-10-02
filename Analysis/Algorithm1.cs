@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace StrategyDesignPattern
 {
-    public class Method1 : IMachineLearning
+    public class Algorithm1 : IMachineLearning
     {
-        // Implement method 1
+        // Implement Algorithm 1
         public void ExecuteMachineLearning(string data)
         {
             Debug.Log("Data: '" + data);
