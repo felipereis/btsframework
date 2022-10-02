@@ -5,12 +5,12 @@ namespace StrategyDesignPattern
     public class ClientML : MonoBehaviour
     {
         // Start is called before the first frame update
-        // Start method 1 and 2 - ML
+        // Start Algorithm 1 and 2 - ML
         void Start()
         {
-            Context ctx = new Context(new Method1());
+            Context ctx = new Context(new Algorithm1());
             ctx.ExecuteMachineLearning("data1");
-            ctx.SetStrategy(new Method2());
+            ctx.SetStrategy(new Algorithm2());
             ctx.ExecuteMachineLearning("data2");
         }
     }
